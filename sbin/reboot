@@ -1,0 +1,6 @@
+#!/bin/sh
+
+IBXD_PATH="/opt/ibxd"
+
+echo "reboot ${@}" > "${IBXD_PATH}"
+exit ${?}
